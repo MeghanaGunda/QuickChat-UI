@@ -1,0 +1,73 @@
+.profile-section {
+  background-color: #e4eaeb;
+  border-radius: 10px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #e4eaeb;
+  padding: 20px;
+  font-family: 'roboto';
+}
+.profile-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.profile-img {
+  height: 50px;
+  width: 50px;
+}
+.name-and-settings {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.profile-name {
+  font-size: 20px;
+}
+.settings-icon {
+  font-size: 20px;
+  margin-left: 5px;
+}
+.switch {
+  font-size: 20px;
+}
+.active-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.active {
+  font-size: 15px;
+  font-weight: 500;
+  margin-left: 5px;
+}
+.active-heading-section {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  font-family: 'roboto';
+}
+.ac-heading {
+  font-size: 15px;
+}
+.conversations-count {
+  font-size: 15px;
+  border-radius: 10px;
+  background-color: #e4eaeb;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 10px;
+}
+.drop-down-btn {
+  background-color: transparent;
+  border: none;
+  font-weight: bold;
+  font-size: 20px;
+  margin-left: 10px;
+}

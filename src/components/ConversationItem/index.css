@@ -1,0 +1,36 @@
+.conversation-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 5px;
+  font-family: 'roboto';
+}
+.active-conversation {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 5px;
+  font-family: 'roboto';
+  background-color: #e4eaeb;
+  border: none;
+  border-radius: 5px;
+}
+.normal-conversation {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 5px;
+  font-family: 'roboto';
+  background-color: transparent;
+  border: none;
+}
+.profile-image {
+  height: 50px;
+  width: 50px;
+  border-radius: 25px;
+}
+.conversation-name {
+  font-size: 15px;
+  font-weight: bold;
+  margin-left: 20px;
+}

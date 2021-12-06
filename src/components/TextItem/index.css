@@ -1,0 +1,38 @@
+.my-text {
+  background-color: #363745;
+  color: #ffffff;
+  font-family: 'roboto';
+  font-size: 10px;
+  text-align: center;
+  padding: 5px;
+  border-radius: 3px;
+  margin: 5px;
+}
+.opp-text {
+  background-color: #ffffff;
+  color: #363745;
+  font-family: 'roboto';
+  font-size: 10px;
+  text-align: center;
+  padding: 5px;
+  border-radius: 3px;
+  margin: 5px;
+  order: 1;
+}
+.right-align {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  margin: 10px;
+}
+.left-align {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 10px;
+}
+.text-img {
+  height: 30px;
+  width: 30px;
+  border-radius: 15px;
+}
